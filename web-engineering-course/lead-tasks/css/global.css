@@ -6,8 +6,17 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "PT Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  scroll-behavior: smooth;
 }
 
 nav {
@@ -20,7 +29,7 @@ nav {
   justify-content: space-between;
   height: 60px;
   padding: 5px 50px;
-  border-bottom: 5px solid rgb(136, 14, 14);
+  border-bottom: 3px solid rgb(49, 82, 116);
   z-index: 100;
   background-color: white;
 }
@@ -36,6 +45,18 @@ nav .logo img {
   height: 100%;
   width: auto;
   margin-right: 5px;
+}
+
+nav .logo a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+nav .logo a:hover {
+  text-decoration: underline;
+  color: rgb(40, 120, 206);
 }
 
 nav .menu-icon {
@@ -54,22 +75,91 @@ nav .menu-icon:active {
   transform: scale(0.85);
 }
 
-section {
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
-  min-height: 100vh;
-  padding-top: 60px;
+  margin-top: 60px;
+}
+
+main aside {
+  background-color: rgb(247, 247, 247);
+  font-weight: unset;
+  position: fixed;
+  flex: 1;
+  top: 60px;
+  width: 20%;
+  height: calc(100vh - 60px);
+  text-align: center;
+}
+
+main aside:nth-of-type(1) {
+  left: 0;
+  /* border-right: 2px solid rgb(43, 43, 43); */
+}
+main aside:nth-of-type(2) {
+  right: 0;
+  /* border-left: 2px solid rgb(43, 43, 43); */
+}
+
+main aside h3 {
+  font-size: 15px;
+  padding: 15px 5px;
+  color: rgb(43, 43, 43);
+}
+
+main aside ul {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  list-style-type: none;
+  grid-row-gap: 1px;
+  padding: 0 5px;
+  background-color: rgb(242, 242, 242);
+  font-size: 13px;
+}
+
+main aside ul a {
+  text-decoration: none;
+  width: 100%;
+  padding: 5px;
+  color: white;
+  background-color: rgb(49, 82, 116);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main aside ul a i {
+  font-size: 17px !important;
+  margin-right: 5px;
+}
+
+main aside ul a.selected {
+  color: yellow;
+}
+
+main aside ul a:hover {
+  filter: brightness(1.1);
+}
+
+section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 60px);
 }
 
 section h1 {
-  font-size: 40px;
   text-align: center;
   color: rgb(36, 36, 36);
   letter-spacing: 2px;
-  padding: 10px;
+  padding: 20px 10px;
 }
 
 .activity-card {
@@ -78,13 +168,15 @@ section h1 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 550px;
+  width: 50%;
   max-width: 100%;
   margin: auto 10px;
   border-radius: 10px;
-  padding: 0 10px;
-  padding-bottom: 5px;
-  background-color: rgb(243, 243, 243);
+  padding: 10px;
+  background-color: rgb(242, 242, 242);
+  margin-bottom: 50px;
+  scroll-snap-align: start;
+  scroll-margin-top: 80px;
 }
 
 .activity-card li {
@@ -125,16 +217,25 @@ section h1 {
   font-size: 13px;
   color: rgb(8, 130, 251);
   font-weight: unset;
-  animation: appears 2s forwards;
+  animation: appears 1.5s forwards;
+}
+
+.member:hover {
+  cursor: pointer;
+  color: rgb(46, 46, 46);
 }
 
 @keyframes appears {
-  from {
-    transform: translateY(20px);
+  0% {
+    transform: scale(1);
     opacity: 0;
   }
-  to {
-    transform: translateY(0%);
+  50% {
+    transform: scale(1.01);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
     opacity: 1;
   }
 }
@@ -199,14 +300,25 @@ section h1 {
 }
 
 .dark {
-  background: linear-gradient(to bottom, rgb(156, 156, 156), rgb(70, 70, 70));
+  background: linear-gradient(to bottom, rgb(128, 252, 128), green);
 }
 
 .blue {
-  background: linear-gradient(to bottom, rgb(73, 164, 255), dodgerblue);
+  background: linear-gradient(to bottom, rgb(73, 164, 255), rgb(13, 100, 187));
 }
 
 .btn i {
   font-size: 17px !important;
   margin-left: 5px;
+}
+
+footer {
+  width: 60%;
+  height: 50px;
+  background-color: rgb(49, 82, 116);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
 }
