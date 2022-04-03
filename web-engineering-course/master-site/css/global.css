@@ -383,8 +383,21 @@ footer {
 
 .not-found h1 {
   font-size: 50px;
+  margin-bottom: 10px;
 }
 
-.not-found h2 {
-  font-size: 30px;
+.not-found a {
+  color: rgb(193, 193, 193);
+  background-color: rgb(85, 85, 85);
+  text-decoration: none;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+
+.not-found a:hover {
+  filter: brightness(1.1);
+}
+
+.not-found a:active {
+  transform: scale(0.95);
 }
