@@ -368,3 +368,23 @@ footer {
     width: 100%;
   }
 }
+
+.not-found {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(193, 193, 193);
+  font-weight: unset;
+  color: rgb(85, 85, 85);
+}
+
+.not-found h1 {
+  font-size: 50px;
+}
+
+.not-found h2 {
+  font-size: 30px;
+}
