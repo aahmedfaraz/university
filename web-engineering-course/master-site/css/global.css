@@ -225,7 +225,7 @@ section h1 {
   font-size: 13px;
   color: rgb(8, 130, 251);
   font-weight: unset;
-  animation: appears 3s forwards;
+  animation: appears 1s forwards;
 }
 
 .member:hover {
@@ -239,7 +239,7 @@ section h1 {
 
 @keyframes appears {
   from {
-    transform: translateY(50%);
+    transform: translateY(30%);
     opacity: 0;
   }
   to {
@@ -384,4 +384,14 @@ footer {
 .not-found h1 {
   font-size: 50px;
   margin-bottom: 10px;
+}
+
+.vertical-navbar a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vertical-navbar a p {
+  flex: 1;
 }
