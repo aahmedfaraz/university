@@ -10,22 +10,36 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <!-- Shortcut Icon -->
     <link rel="shortcut icon" href="./assets/icons/ahmedfaraz-icon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <title>By Ahmed Faraz</title>
 </head>
 <body>
     <!-- ============================================================= -->
     <!-- Navbar -->
     <!-- ============================================================= -->
-    <nav>
-        <!-- Logo -->
-        <div class="logo">
-            <img src="./assets/icons/ahmedfaraz-icon.png" alt="logo">
-            <a target="_blank" href="https://www.linkedin.com/in/aahmed-faraz/">AHMED FARAZ</a>
+    <nav class="navbar navbar-light fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" target="_blank" href="https://www.linkedin.com/in/aahmed-faraz/">
+            <img src="./assets/icons/ahmedfaraz-icon.png" alt="" width="30" height="30" class="d-inline-block align-text-top">
+            <span>AHMED FARAZ</span>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">AHMED FARAZ</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" id="close-navbar" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body d"> 
+              <form class="d-flex" id="search-form">
+                <input class="form-control me-2" type="search" placeholder="Search any student" aria-label="Search" id="search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
         </div>
-
-        <!-- Icon -->
-        <i class="material-icons menu-icon">menu</i>
-    </nav>
+      </nav>
 
     <main>
         <aside>
@@ -731,5 +745,7 @@
             </ul>
         </aside>
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
 </body>
 </html>
