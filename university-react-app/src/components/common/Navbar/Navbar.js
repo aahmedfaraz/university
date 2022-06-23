@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-light fixed-top">
         <div className="container-fluid">
-          <a className="navbar-brand"   target="_blank" href="https://www.linkedin.com/in/aahmed-faraz/">
+          <a className="navbar-brand" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/aahmed-faraz/">
             <img src={AhmedFarazIcon} alt="" width="30" height="30" className="d-inline-block align-text-top" />
             <span>AHMED FARAZ</span>
           </a>

@@ -37,11 +37,11 @@ const Assign2 = () => {
                 <li class="member self">
                     <span>Ahmed Faraz</span>
                     <span>(02-131192-037)</span>
-                    <a target="_blank" href="https://github.com/aahmedfaraz/university/tree/main/university-react-app" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="https://github.com/aahmedfaraz/university/tree/main/university-react-app" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a target="_blank" href="https://ahmedfaraz-university.netlify.app/" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="https://ahmedfaraz-university.netlify.app/" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
@@ -54,11 +54,11 @@ const Assign2 = () => {
                 <li class="member lead">
                     <span>Muhammad Umer Farooque</span>
                     <span>(02-131192-059)</span>
-                    <a target="_blank" href="" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a target="_blank" href="" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
@@ -67,11 +67,11 @@ const Assign2 = () => {
                 <li class="member">
                     <span>Abdul Basit Khan</span>
                     <span>(02-131192-066)</span>
-                    <a target="_blank" href="" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a target="_blank" href="" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
@@ -80,11 +80,11 @@ const Assign2 = () => {
                 <li class="member">
                     <span>Rida Afzal</span>
                     <span>(02-131192-008)</span>
-                    <a target="_blank" href="" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a target="_blank" href="" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
@@ -93,11 +93,11 @@ const Assign2 = () => {
                 <li class="member">
                     <span>Rimya Fareed</span>
                     <span>(02-131192-010)</span>
-                    <a target="_blank" href="" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a target="_blank" href="" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
@@ -110,11 +110,11 @@ const Assign2 = () => {
                 <li class="member lead">
                     <span>M Saim Hassan</span>
                     <span>(02-131192-015)</span>
-                    <a target="_blank" href="" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a target="_blank" href="" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
@@ -123,11 +123,11 @@ const Assign2 = () => {
                 <li class="member">
                     <span>Muhammad Bilal</span>
                     <span>(02-131192-080)</span>
-                    <a target="_blank" href="" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a target="_blank" href="" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
@@ -136,11 +136,11 @@ const Assign2 = () => {
                 <li class="member">
                     <span>Rabiya Essani</span>
                     <span>(02-131192-081)</span>
-                    <a target="_blank" href="" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a target="_blank" href="" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
@@ -149,11 +149,11 @@ const Assign2 = () => {
                 <li class="member">
                     <span>Saad Kamal</span>
                     <span>(02-131192-075)</span>
-                    <a target="_blank" href="" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a target="_blank" href="" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
@@ -194,11 +194,11 @@ const Assign2 = () => {
                 <li class="member self">
                     <span>Muhammad Umer Adeem</span>
                     <span>(02-131192-044)</span>
-                    <a target="_blank" href="" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a target="_blank" href="" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
@@ -211,11 +211,11 @@ const Assign2 = () => {
                 <li class="member lead">
                     <span>Adeenah Akhtar</span>
                     <span>(02-131192-024)</span>
-                    <a target="_blank" href="" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a target="_blank" href="" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
@@ -224,11 +224,11 @@ const Assign2 = () => {
                 <li class="member">
                     <span>Haris Zahid</span>
                     <span>(02-131192-001)</span>
-                    <a target="_blank" href="" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a target="_blank" href="" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
@@ -237,11 +237,11 @@ const Assign2 = () => {
                 <li class="member">
                     <span>Saba Sunawar</span>
                     <span>(02-131192-009)</span>
-                    <a target="_blank" href="" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a target="_blank" href="" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
@@ -250,11 +250,11 @@ const Assign2 = () => {
                 <li class="member">
                     <span>Sami Ullah Khan</span>
                     <span>(02-131192-071)</span>
-                    <a target="_blank" href="" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a target="_blank" href="" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
@@ -266,11 +266,11 @@ const Assign2 = () => {
                 <li class="member lead">
                     <span>Muhammad Sohail Hameed</span>
                     <span>(02-131192-083)</span>
-                    <a target="_blank" href="" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a target="_blank" href="" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
@@ -279,11 +279,11 @@ const Assign2 = () => {
                 <li class="member">
                     <span>Raja Humza Nawaz</span>
                     <span>(02-131192-072)</span>
-                    <a target="_blank" href="" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a target="_blank" href="" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
@@ -292,11 +292,11 @@ const Assign2 = () => {
                 <li class="member">
                     <span>Sannia Amin</span>
                     <span>(02-131192-068)</span>
-                    <a target="_blank" href="" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a target="_blank" href="" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
@@ -305,11 +305,11 @@ const Assign2 = () => {
                 <li class="member">
                     <span>Amna Nadeem</span>
                     <span>(02-131192-003)</span>
-                    <a target="_blank" href="" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a target="_blank" href="" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
@@ -350,11 +350,11 @@ const Assign2 = () => {
                 <li class="member self">
                     <span>Hamza Bukhari</span>
                     <span>(02-131192-022)</span>
-                    <a target="_blank" href="" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a target="_blank" href="" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
@@ -366,11 +366,11 @@ const Assign2 = () => {
                 <li class="member lead">
                     <span>Ahmed Bin Alam Rao</span>
                     <span>(02-131192-046)</span>
-                    <a target="_blank" href="" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a target="_blank" href="" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
@@ -379,11 +379,11 @@ const Assign2 = () => {
                 <li class="member">
                     <span>Hareem Fatima</span>
                     <span>(02-131192-020)</span>
-                    <a target="_blank" href="" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a target="_blank" href="" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
@@ -392,11 +392,11 @@ const Assign2 = () => {
                 <li class="member">
                     <span>Abdul Rehman</span>
                     <span>(02-131192-064)</span>
-                    <a target="_blank" href="" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a target="_blank" href="" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
@@ -405,11 +405,11 @@ const Assign2 = () => {
                 <li class="member">
                     <span>Sadia Ambreen</span>
                     <span>(02-131192-056)</span>
-                    <a target="_blank" href="" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a target="_blank" href="" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
@@ -421,11 +421,11 @@ const Assign2 = () => {
                 <li class="member lead">
                     <span>Abdullah Iqbal</span>
                     <span>(02-131192-076)</span>
-                    <a target="_blank" href="" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a target="_blank" href="" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
@@ -434,11 +434,11 @@ const Assign2 = () => {
                 <li class="member">
                     <span>Arzoo Fatima</span>
                     <span>(02-131192-032)</span>
-                    <a target="_blank" href="" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a target="_blank" href="" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
@@ -447,11 +447,11 @@ const Assign2 = () => {
                 <li class="member">
                     <span>Shahwaiz Hassan</span>
                     <span>(02-131192-006)</span>
-                    <a target="_blank" href="" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a target="_blank" href="" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
@@ -460,11 +460,11 @@ const Assign2 = () => {
                 <li class="member">
                     <span>Arshia Naveed</span>
                     <span>(02-131192-026)</span>
-                    <a target="_blank" href="" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a target="_blank" href="" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
@@ -506,11 +506,11 @@ const Assign2 = () => {
                 <li class="member self">
                     <span>Adil Waheed</span>
                     <span>(02-131192-082)</span>
-                    <a target="_blank" href="" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a target="_blank" href="" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
@@ -522,11 +522,11 @@ const Assign2 = () => {
                 <li class="member lead">
                     <span>Syed Muhammad Shoaib</span>
                     <span>(02-131192-030)</span>
-                    <a target="_blank" href="" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a target="_blank" href="" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
@@ -535,11 +535,11 @@ const Assign2 = () => {
                 <li class="member">
                     <span>Dania Ahmed</span>
                     <span>(02-131192-079)</span>
-                    <a target="_blank" href="" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a target="_blank" href="" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
@@ -548,11 +548,11 @@ const Assign2 = () => {
                 <li class="member">
                     <span>Sajjad Ahmed</span>
                     <span>(02-131192-052)</span>
-                    <a target="_blank" href="" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a target="_blank" href="" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
@@ -561,11 +561,11 @@ const Assign2 = () => {
                 <li class="member">
                     <span>Summayya Khalid</span>
                     <span>(02-131192-057)</span>
-                    <a target="_blank" href="" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a target="_blank" href="" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
@@ -577,11 +577,11 @@ const Assign2 = () => {
                 <li class="member lead">
                     <span>Marium Ahmed</span>
                     <span>(02-131192-014)</span>
-                    <a target="_blank" href="" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a target="_blank" href="" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
@@ -590,11 +590,11 @@ const Assign2 = () => {
                 <li class="member">
                     <span>Mirza Muhammad Farooq Baig</span>
                     <span>(02-131192-040)</span>
-                    <a target="_blank" href="" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a target="_blank" href="" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
@@ -603,11 +603,11 @@ const Assign2 = () => {
                 <li class="member">
                     <span>Ahmed Faraz Ali</span>
                     <span>(02-131192-023)</span>
-                    <a target="_blank" href="" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a target="_blank" href="" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
@@ -616,11 +616,11 @@ const Assign2 = () => {
                 <li class="member">
                     <span>Muhammad Shazil Bin Alam Rao</span>
                     <span>(02-131192-047)</span>
-                    <a target="_blank" href="" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a target="_blank" href="" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
