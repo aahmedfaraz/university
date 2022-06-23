@@ -1,71 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- CSS Stylesheet -->
-    <link rel="stylesheet" href="./css/global.css">
-    <!-- CDN Link for Google Icons -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <!-- Shortcut Icon -->
-    <link rel="shortcut icon" href="./assets/icons/ahmedfaraz-icon.png">
-    
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <title>By Ahmed Faraz</title>
-</head>
-<body>
-    <!-- ============================================================= -->
-    <!-- Navbar -->
-    <!-- ============================================================= -->
-    <nav class="navbar navbar-light fixed-top">
-        <div class="container-fluid">
-          <a class="navbar-brand"   target="_blank" href="https://www.linkedin.com/in/aahmed-faraz/">
-            <img src="./assets/icons/ahmedfaraz-icon.png" alt="" width="30" height="30" class="d-inline-block align-text-top">
-            <span>AHMED FARAZ</span>
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">AHMED FARAZ</h5>
-              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" id="close-navbar" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body d"> 
-              <form class="d-flex" id="search-form">
-                <input class="form-control me-2" type="search" placeholder="Search any student" aria-label="Search" id="search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-              </form>
-            </div>
-          </div>
-        </div>
-      </nav>
+import React from 'react';
 
-
-    <main>
-        <aside>
-            <h3>Web Engineering Record</h3>
-            <ul class="vertical-navbar">
-                <a href="index.html">
-                    <i class="material-icons">task</i>
-                    <p>Assignment 1</p>
-                </a>
-                <a href="./all-labs.html">
-                    <i class="material-icons">task</i>
-                    <p>All Labs</p>
-                </a>
-                <a href="./assign2.html" class="selected">
-                    <i class="material-icons">task</i>
-                    <p>Assignment 2</p>
-                </a>
-            </ul>
-        </aside>
-        <!-- ============================================================= -->
-        <!-- Page : Morale -->
-        <!-- ============================================================= -->
-        <section id="morale">
-            <!-- Top Heading -->
+const Assign2 = () => {
+  return (
+    <>
+      
+    {/* <!-- Top Heading --> */}
             <h1>Web Engineering Assignment # 02</h1>
 
 
@@ -89,12 +28,12 @@
 
 
 
-            <!-- AHMED FARAZ card starts from here -------------------------------------------------------------------------------------------------------------->
-            <!-- ============================================================= -->
-            <!-- Activity Card - Group 3 and 6 -->
-            <!-- ============================================================= -->
+            {/* <!-- AHMED FARAZ card starts from here --------------------------------------------------------------------------------------------------------------> */}
+            {/* <!-- ============================================================= --> */}
+            {/* <!-- Activity Card - Group 3 and 6 --> */}
+            {/* <!-- ============================================================= --> */}
             <ul class="activity-card" id="group-3-and-6">
-                <!-- Site GitHub Link -->
+                {/* <!-- Site GitHub Link --> */}
                 <li class="member self">
                     <span>Ahmed Faraz</span>
                     <span>(02-131192-037)</span>
@@ -107,11 +46,11 @@
                         <i class="material-icons">open_in_new</i>
                     </a>
                 </li>
-                <!-- GROUP - 3 -->
+                {/* <!-- GROUP - 3 --> */}
                 <li class="activity-heading">
                     <span>Group - 3</span>
                 </li>
-                <!-- member - 01 -->
+                {/* <!-- member - 01 --> */}
                 <li class="member lead">
                     <span>Muhammad Umer Farooque</span>
                     <span>(02-131192-059)</span>
@@ -124,7 +63,7 @@
                         <i class="material-icons">open_in_new</i>
                     </a>
                 </li>
-                <!-- member - 02 -->
+                {/* <!-- member - 02 --> */}
                 <li class="member">
                     <span>Abdul Basit Khan</span>
                     <span>(02-131192-066)</span>
@@ -137,7 +76,7 @@
                         <i class="material-icons">open_in_new</i>
                     </a>
                 </li>
-                <!-- member - 03 -->
+                {/* <!-- member - 03 --> */}
                 <li class="member">
                     <span>Rida Afzal</span>
                     <span>(02-131192-008)</span>
@@ -150,7 +89,7 @@
                         <i class="material-icons">open_in_new</i>
                     </a>
                 </li>
-                <!-- member - 04 -->
+                {/* <!-- member - 04 --> */}
                 <li class="member">
                     <span>Rimya Fareed</span>
                     <span>(02-131192-010)</span>
@@ -163,11 +102,11 @@
                         <i class="material-icons">open_in_new</i>
                     </a>
                 </li>
-                <!-- GROUP - 6 -->
+                {/* <!-- GROUP - 6 --> */}
                 <li class="activity-heading">
                     <span>Group - 6</span>
                 </li>
-                <!-- member - 01 -->
+                {/* <!-- member - 01 --> */}
                 <li class="member lead">
                     <span>M Saim Hassan</span>
                     <span>(02-131192-015)</span>
@@ -180,7 +119,7 @@
                         <i class="material-icons">open_in_new</i>
                     </a>
                 </li>
-                <!-- member - 02 -->
+                {/* <!-- member - 02 --> */}
                 <li class="member">
                     <span>Muhammad Bilal</span>
                     <span>(02-131192-080)</span>
@@ -193,7 +132,7 @@
                         <i class="material-icons">open_in_new</i>
                     </a>
                 </li>
-                <!-- member - 03 -->
+                {/* <!-- member - 03 --> */}
                 <li class="member">
                     <span>Rabiya Essani</span>
                     <span>(02-131192-081)</span>
@@ -206,7 +145,7 @@
                         <i class="material-icons">open_in_new</i>
                     </a>
                 </li>
-                <!-- member - 04 -->
+                {/* <!-- member - 04 --> */}
                 <li class="member">
                     <span>Saad Kamal</span>
                     <span>(02-131192-075)</span>
@@ -220,7 +159,7 @@
                     </a>
                 </li>
             </ul>
-            <!-- AHMED FARAZ card ends here -------------------------------------------------------------------------------------------------------------->
+            {/* <!-- AHMED FARAZ card ends here --------------------------------------------------------------------------------------------------------------> */}
 
 
 
@@ -246,12 +185,12 @@
 
 
 
-            <!-- MUHAMMAD UMER ADEEM card starts from here -------------------------------------------------------------------------------------------------------------->
-            <!-- ============================================================= -->
-            <!-- Activity Card - Group 7 and 1 -->
-            <!-- ============================================================= -->
+            {/* <!-- MUHAMMAD UMER ADEEM card starts from here --------------------------------------------------------------------------------------------------------------> */}
+            {/* <!-- ============================================================= --> */}
+            {/* <!-- Activity Card - Group 7 and 1 --> */}
+            {/* <!-- ============================================================= --> */}
             <ul class="activity-card" id="group-7-and-1">
-                <!-- Site GitHub Link -->
+                {/* <!-- Site GitHub Link --> */}
                 <li class="member self">
                     <span>Muhammad Umer Adeem</span>
                     <span>(02-131192-044)</span>
@@ -264,11 +203,11 @@
                         <i class="material-icons">open_in_new</i>
                     </a>
                 </li>
-                <!-- GROUP - 7 -->
+                {/* <!-- GROUP - 7 --> */}
                 <li class="activity-heading">
                     <span>Group - 7</span>
                 </li>
-                <!-- member - 01 -->
+                {/* <!-- member - 01 --> */}
                 <li class="member lead">
                     <span>Adeenah Akhtar</span>
                     <span>(02-131192-024)</span>
@@ -281,7 +220,7 @@
                         <i class="material-icons">open_in_new</i>
                     </a>
                 </li>
-                <!-- member - 02 -->
+                {/* <!-- member - 02 --> */}
                 <li class="member">
                     <span>Haris Zahid</span>
                     <span>(02-131192-001)</span>
@@ -294,7 +233,7 @@
                         <i class="material-icons">open_in_new</i>
                     </a>
                 </li>
-                <!-- member - 03 -->
+                {/* <!-- member - 03 --> */}
                 <li class="member">
                     <span>Saba Sunawar</span>
                     <span>(02-131192-009)</span>
@@ -307,7 +246,7 @@
                         <i class="material-icons">open_in_new</i>
                     </a>
                 </li>
-                <!-- member - 04 -->
+                {/* <!-- member - 04 --> */}
                 <li class="member">
                     <span>Sami Ullah Khan</span>
                     <span>(02-131192-071)</span>
@@ -320,7 +259,7 @@
                         <i class="material-icons">open_in_new</i>
                     </a>
                 </li>
-                <!-- GROUP - 1 -->
+                {/* <!-- GROUP - 1 --> */}
                 <li class="activity-heading">
                     <span>Group - 1</span>
                 </li>
@@ -336,7 +275,7 @@
                         <i class="material-icons">open_in_new</i>
                     </a>
                 </li>
-                <!-- member - 02 -->
+                {/* <!-- member - 02 --> */}
                 <li class="member">
                     <span>Raja Humza Nawaz</span>
                     <span>(02-131192-072)</span>
@@ -349,7 +288,7 @@
                         <i class="material-icons">open_in_new</i>
                     </a>
                 </li>
-                <!-- member - 03 -->
+                {/* <!-- member - 03 --> */}
                 <li class="member">
                     <span>Sannia Amin</span>
                     <span>(02-131192-068)</span>
@@ -362,7 +301,7 @@
                         <i class="material-icons">open_in_new</i>
                     </a>
                 </li>
-                <!-- member - 04 -->
+                {/* <!-- member - 04 --> */}
                 <li class="member">
                     <span>Amna Nadeem</span>
                     <span>(02-131192-003)</span>
@@ -376,7 +315,7 @@
                     </a>
                 </li>
             </ul>
-            <!-- MUHAMMAD UMER ADEEM card ends here -------------------------------------------------------------------------------------------------------------->
+            {/* <!-- MUHAMMAD UMER ADEEM card ends here --------------------------------------------------------------------------------------------------------------> */}
 
 
 
@@ -402,12 +341,12 @@
 
 
 
-            <!-- HAMZA BUKHARI card starts from here -------------------------------------------------------------------------------------------------------------->
-            <!-- ============================================================= -->
-            <!-- Activity Card - Group 5 and 4 -->
-            <!-- ============================================================= -->
+            {/* <!-- HAMZA BUKHARI card starts from here --------------------------------------------------------------------------------------------------------------> */}
+            {/* <!-- ============================================================= --> */}
+            {/* <!-- Activity Card - Group 5 and 4 --> */}
+            {/* <!-- ============================================================= --> */}
             <ul class="activity-card" id="group-5-and-4">
-                <!-- Site GitHub Link -->
+                {/* <!-- Site GitHub Link --> */}
                 <li class="member self">
                     <span>Hamza Bukhari</span>
                     <span>(02-131192-022)</span>
@@ -420,7 +359,7 @@
                         <i class="material-icons">open_in_new</i>
                     </a>
                 </li>
-                <!-- GROUP - 5 -->
+                {/* <!-- GROUP - 5 --> */}
                 <li class="activity-heading">
                     <span>Group - 5</span>
                 </li>
@@ -436,7 +375,7 @@
                         <i class="material-icons">open_in_new</i>
                     </a>
                 </li>
-                <!-- member - 02 -->
+                {/* <!-- member - 02 --> */}
                 <li class="member">
                     <span>Hareem Fatima</span>
                     <span>(02-131192-020)</span>
@@ -449,7 +388,7 @@
                         <i class="material-icons">open_in_new</i>
                     </a>
                 </li>
-                <!-- member - 03 -->
+                {/* <!-- member - 03 --> */}
                 <li class="member">
                     <span>Abdul Rehman</span>
                     <span>(02-131192-064)</span>
@@ -462,7 +401,7 @@
                         <i class="material-icons">open_in_new</i>
                     </a>
                 </li>
-                <!-- member - 04 -->
+                {/* <!-- member - 04 --> */}
                 <li class="member">
                     <span>Sadia Ambreen</span>
                     <span>(02-131192-056)</span>
@@ -475,7 +414,7 @@
                         <i class="material-icons">open_in_new</i>
                     </a>
                 </li>
-                <!-- GROUP - 4 -->
+                {/* <!-- GROUP - 4 --> */}
                 <li class="activity-heading">
                     <span>Group - 4</span>
                 </li>
@@ -491,7 +430,7 @@
                         <i class="material-icons">open_in_new</i>
                     </a>
                 </li>
-                <!-- member - 02 -->
+                {/* <!-- member - 02 --> */}
                 <li class="member">
                     <span>Arzoo Fatima</span>
                     <span>(02-131192-032)</span>
@@ -504,7 +443,7 @@
                         <i class="material-icons">open_in_new</i>
                     </a>
                 </li>
-                <!-- member - 03 -->
+                {/* <!-- member - 03 --> */}
                 <li class="member">
                     <span>Shahwaiz Hassan</span>
                     <span>(02-131192-006)</span>
@@ -517,7 +456,7 @@
                         <i class="material-icons">open_in_new</i>
                     </a>
                 </li>
-                <!-- member - 04 -->
+                {/* <!-- member - 04 --> */}
                 <li class="member">
                     <span>Arshia Naveed</span>
                     <span>(02-131192-026)</span>
@@ -531,7 +470,7 @@
                     </a>
                 </li>
             </ul>
-            <!-- HAMZA BUKHARI card ends here -------------------------------------------------------------------------------------------------------------->
+            {/* <!-- HAMZA BUKHARI card ends here --------------------------------------------------------------------------------------------------------------> */}
 
 
 
@@ -558,12 +497,12 @@
 
 
 
-            <!-- ADIL WAHEED card starts from here -------------------------------------------------------------------------------------------------------------->
-            <!-- ============================================================= -->
-            <!-- Activity Card - Group 2 and 8 -->
-            <!-- ============================================================= -->
+            {/* <!-- ADIL WAHEED card starts from here --------------------------------------------------------------------------------------------------------------> */}
+            {/* <!-- ============================================================= --> */}
+            {/* <!-- Activity Card - Group 2 and 8 --> */}
+            {/* <!-- ============================================================= --> */}
             <ul class="activity-card" id="group-2-and-8">
-                <!-- Site GitHub Link -->
+                {/* <!-- Site GitHub Link --> */}
                 <li class="member self">
                     <span>Adil Waheed</span>
                     <span>(02-131192-082)</span>
@@ -576,7 +515,7 @@
                         <i class="material-icons">open_in_new</i>
                     </a>
                 </li>
-                <!-- GROUP - 2 -->
+                {/* <!-- GROUP - 2 --> */}
                 <li class="activity-heading">
                     <span>Group - 2</span>
                 </li>
@@ -592,7 +531,7 @@
                         <i class="material-icons">open_in_new</i>
                     </a>
                 </li>
-                <!-- member - 02 -->
+                {/* <!-- member - 02 --> */}
                 <li class="member">
                     <span>Dania Ahmed</span>
                     <span>(02-131192-079)</span>
@@ -605,7 +544,7 @@
                         <i class="material-icons">open_in_new</i>
                     </a>
                 </li>
-                <!-- member - 03 -->
+                {/* <!-- member - 03 --> */}
                 <li class="member">
                     <span>Sajjad Ahmed</span>
                     <span>(02-131192-052)</span>
@@ -618,7 +557,7 @@
                         <i class="material-icons">open_in_new</i>
                     </a>
                 </li>
-                <!-- member - 04 -->
+                {/* <!-- member - 04 --> */}
                 <li class="member">
                     <span>Summayya Khalid</span>
                     <span>(02-131192-057)</span>
@@ -631,7 +570,7 @@
                         <i class="material-icons">open_in_new</i>
                     </a>
                 </li>
-                <!-- GROUP - 8 -->
+                {/* <!-- GROUP - 8 --> */}
                 <li class="activity-heading">
                     <span>Group - 8</span>
                 </li>
@@ -647,7 +586,7 @@
                         <i class="material-icons">open_in_new</i>
                     </a>
                 </li>
-                <!-- member - 02 -->
+                {/* <!-- member - 02 --> */}
                 <li class="member">
                     <span>Mirza Muhammad Farooq Baig</span>
                     <span>(02-131192-040)</span>
@@ -660,7 +599,7 @@
                         <i class="material-icons">open_in_new</i>
                     </a>
                 </li>
-                <!-- member - 03 -->
+                {/* <!-- member - 03 --> */}
                 <li class="member">
                     <span>Ahmed Faraz Ali</span>
                     <span>(02-131192-023)</span>
@@ -673,7 +612,7 @@
                         <i class="material-icons">open_in_new</i>
                     </a>
                 </li>
-                <!-- member - 04 -->
+                {/* <!-- member - 04 --> */}
                 <li class="member">
                     <span>Muhammad Shazil Bin Alam Rao</span>
                     <span>(02-131192-047)</span>
@@ -687,7 +626,7 @@
                     </a>
                 </li>
             </ul>
-            <!-- ADIL WAHEED card ends here -------------------------------------------------------------------------------------------------------------->
+            {/* <!-- ADIL WAHEED card ends here --------------------------------------------------------------------------------------------------------------> */}
 
 
 
@@ -716,37 +655,8 @@
 
 
 
-            <!-- ============================================================= -->
-            <!-- Footer -->
-            <!-- ============================================================= -->
-            <footer>
-                <p>&copy All Rights Reserved</p>
-            </footer>
+    </>
+  )
+}
 
-        </section>
-        <aside>
-            <h3>Select Groups</h3>
-            <ul class="vertical-navbar">
-                <a href="#group-3-and-6">
-                    <i class="material-icons">group</i>
-                    Group 3 and Group 6
-                </a>
-                <a href="#group-7-and-1">
-                    <i class="material-icons">group</i>
-                    Group 7 and Group 1
-                </a>
-                <a href="#group-5-and-4">
-                    <i class="material-icons">group</i>
-                    Group 5 and Group 4
-                </a>
-                <a href="#group-2-and-8">
-                    <i class="material-icons">group</i>
-                    Group 2 and Group 8
-                </a>
-            </ul>
-        </aside>
-    </main>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <script src="./js/script.js"></script>
-</body>
-</html>
+export default Assign2;

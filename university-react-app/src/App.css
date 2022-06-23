@@ -1,0 +1,420 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+
+* {
+  box-sizing: border-box !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+html {
+  scroll-behavior: smooth !important;
+}
+
+body {
+  font-family: "PT Sans", sans-serif !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  scroll-behavior: smooth !important;
+}
+
+nav {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  height: 60px !important;
+  padding: 5px 50px !important;
+  border-bottom: 3px solid rgb(8, 75, 143) !important;
+  z-index: 100 !important;
+  background-color: rgb(219, 237, 255) !important;
+}
+
+nav .logo {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  height: 80% !important;
+}
+
+nav .logo img {
+  height: 100% !important;
+  width: auto !important;
+  margin-right: 5px !important;
+}
+
+nav .logo a {
+  text-decoration: none !important;
+  color: black !important;
+  font-size: 18px !important;
+  letter-spacing: 1px !important;
+}
+
+nav .logo a:hover {
+  text-decoration: underline !important;
+  color: rgb(8, 75, 143) !important;
+}
+
+nav .menu-icon {
+  padding: 5px !important;
+  user-select: none !important;
+}
+
+nav .menu-icon:hover {
+  cursor: pointer !important;
+  position: relative !important;
+  background-color: rgba(255, 255, 255, 0.5) !important;
+  border-radius: 20px !important;
+}
+
+nav .menu-icon:active {
+  transform: scale(0.85) !important;
+}
+
+main {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 100% !important;
+  margin-top: 60px !important;
+}
+
+main aside {
+  background-color: rgb(234, 245, 255) !important;
+  font-weight: unset !important;
+  position: fixed !important;
+  flex: 1 !important;
+  top: 60px !important;
+  width: 20% !important;
+  height: calc(100vh - 60px) !important;
+  text-align: center !important;
+}
+
+main aside:nth-of-type(1) {
+  left: 0 !important;
+}
+main aside:nth-of-type(2) {
+  right: 0 !important;
+}
+
+main aside h3 {
+  font-size: 15px !important;
+  padding: 15px 5px !important;
+  color: rgb(8, 75, 143) !important;
+}
+
+main aside ul {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  list-style-type: none !important;
+  grid-row-gap: 1px !important;
+  padding: 0 5px !important;
+  font-size: 13px !important;
+}
+
+main aside ul a {
+  text-decoration: none !important;
+  width: 100% !important;
+  padding: 5px !important;
+  color: white !important;
+  background-color: rgb(8, 75, 143) !important;
+  border-radius: 5px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+main aside ul a i {
+  font-size: 17px !important;
+}
+
+main aside ul a.selected {
+  color: yellow !important;
+}
+
+main aside ul a:hover {
+  filter: brightness(1.2) !important;
+}
+
+main aside ul a:active {
+  transform: scale(0.95) !important;
+}
+
+main aside ul a.disabled {
+  background-color: gray !important;
+}
+
+section {
+  width: 100% !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  min-height: calc(100vh - 60px) !important;
+}
+
+section h1 {
+  text-align: center !important;
+  color: rgb(36, 36, 36) !important;
+  letter-spacing: 2px !important;
+  padding: 20px 10px !important;
+}
+
+.activity-card {
+  list-style-type: none !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 80% !important;
+  margin: auto 10px !important;
+  border-radius: 10px !important;
+  padding: 10px !important;
+  margin-bottom: 50px !important;
+  background-color: rgb(185, 220, 255) !important;
+  scroll-snap-align: start !important;
+  scroll-margin-top: 80px !important;
+}
+
+@media screen and (max-width: 830px) {
+  section h1 {
+    width: 70% !important;
+  }
+  .activity-card {
+    width: 70% !important;
+  }
+}
+@media screen and (max-width: 660px) {
+  section h1 {
+    width: 100% !important;
+  }
+  .activity-card {
+    width: 100% !important;
+  }
+}
+
+.activity-card:nth-of-type(even) {
+  background-color: rgb(219, 237, 255) !important;
+}
+
+.activity-card li {
+  width: 100% !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  margin: 2px 0 !important;
+  border-radius: 5px !important;
+  text-align: center !important;
+  grid-gap: 2px 4px !important;
+  padding: 3px !important;
+}
+
+.activity-card li span,
+.activity-card li a {
+  padding: 2px !important;
+  flex: 1 !important;
+}
+
+.activity-card li span:nth-of-type(1),
+.activity-card li span:nth-of-type(2) {
+  flex: 2 !important;
+}
+
+.activity-card .member span:nth-of-type(1) {
+  text-align: left !important;
+}
+
+.activity-card .activity-heading {
+  font-size: 20px !important;
+  letter-spacing: 2px !important;
+}
+
+.member {
+  background-color: rgb(255, 255, 255) !important;
+  font-size: 13px !important;
+  color: rgb(8, 130, 251) !important;
+  font-weight: unset !important;
+  animation: appears 1s forwards !important;
+}
+
+.member:hover {
+  cursor: pointer !important;
+  color: rgb(46, 46, 46) !important;
+}
+
+.member a {
+  min-width: 90px !important;
+}
+
+@keyframes appears {
+  from {
+    transform: translateY(30%) !important;
+    opacity: 0 !important;
+  }
+  to {
+    transform: translateY(0%) !important;
+    opacity: 1 !important;
+  }
+}
+
+.lead {
+  color: rgb(8, 130, 251) !important;
+  position: relative !important;
+}
+
+.lead span:nth-of-type(1):after {
+  content: "Asst Leader" !important;
+  position: absolute !important;
+  top: -2px !important;
+  color: white !important;
+  background-color: rgb(0, 61, 158) !important;
+  font-size: 10px !important;
+  padding: 0px 5px !important;
+  border-radius: 10px !important;
+}
+
+.self {
+  color: rgb(255, 86, 56) !important;
+  position: relative !important;
+}
+
+.self span:nth-of-type(1):after {
+  content: "Leader" !important;
+  position: absolute !important;
+  top: -2px !important;
+  color: white !important;
+  background-color: rgb(255, 86, 56) !important;
+  font-size: 10px !important;
+  padding: 0px 5px !important;
+  border-radius: 10px !important;
+}
+
+.btn {
+  cursor: pointer !important;
+  color: white !important;
+  text-decoration: none !important;
+  background: linear-gradient(
+    to bottom,
+    rgb(204, 204, 204),
+    rgb(117, 117, 117)
+  ) !important;
+  border-radius: 5px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.btn:hover {
+  filter: brightness(1.2) !important;
+}
+
+.btn:active {
+  transform: scale(0.95) !important;
+}
+
+.dark {
+  background: linear-gradient(to bottom, rgb(128, 252, 128), green) !important;
+}
+
+.blue {
+  background: linear-gradient(to bottom, rgb(73, 164, 255), rgb(13, 100, 187)) !important;
+}
+
+.btn i {
+  font-size: 17px !important;
+  margin-left: 5px !important;
+}
+
+footer {
+  width: 60% !important;
+  height: 50px !important;
+  background-color: rgb(0, 61, 158) !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  color: white !important;
+}
+
+@media screen and (max-width: 660px) {
+  main {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  main aside {
+    top: auto !important;
+  }
+  main aside:nth-of-type(1) {
+    width: 100% !important;
+    position: relative !important;
+    height: auto !important;
+  }
+  main aside:nth-of-type(2) {
+    display: none !important;
+  }
+  .activity-card {
+    width: 90% !important;
+  }
+  .btn {
+    font-style: 10px !important;
+  }
+  .btn i {
+    font-size: 10px !important;
+  }
+  section {
+    margin: 0 !important;
+  }
+  footer {
+    width: 100% !important;
+  }
+  .member {
+    flex-direction: column !important;
+  }
+  .member span {
+    font-size: 15px !important;
+  }
+  .member a {
+    width: 100% !important;
+  }
+}
+
+.not-found {
+  width: 100vw !important;
+  height: 100vh !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  background-color: rgb(255, 190, 179) !important;
+  font-weight: unset !important;
+}
+
+.not-found h1 {
+  font-size: 50px !important;
+  margin-bottom: 10px !important;
+  color: tomato !important;
+}
+
+.vertical-navbar a {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.vertical-navbar a p {
+  flex: 1 !important;
+}
+
+.highlight {
+  background-color: yellow !important;
+}
+
+.offcanvas {
+  padding: 10px !important;
+}
