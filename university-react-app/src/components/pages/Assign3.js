@@ -37,7 +37,7 @@ const Assign2 = () => {
                 <li class="member self">
                     <span>Ahmed Faraz</span>
                     <span>(02-131192-037)</span>
-                    <a target="_blank" href="" class="btn dark">
+                    <a target="_blank" href="https://github.com/aahmedfaraz/university/tree/main/university-react-app" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
