@@ -1,5 +1,4 @@
 import React from 'react';
-import Layout from '../common/Layout';
 
 const AllLabs = () => {
   return (
@@ -38,11 +37,11 @@ const AllLabs = () => {
                 <li class="member self">
                     <span>Ahmed Faraz</span>
                     <span>(02-131192-037)</span>
-                    <a   target="_blank" href="https://github.com/aahmedfaraz/university-web-eng" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="https://github.com/aahmedfaraz/university-web-eng" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a   target="_blank" href="http://ahmedfaraz-we-labs.surge.sh/" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="http://ahmedfaraz-we-labs.surge.sh/" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
@@ -55,11 +54,11 @@ const AllLabs = () => {
                 <li class="member lead">
                     <span>Muhammad Umer Farooque</span>
                     <span>(02-131192-059)</span>
-                    <a   target="_blank" href="#!" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="#!" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a   target="_blank" href="#!" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="#!" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
@@ -68,11 +67,11 @@ const AllLabs = () => {
                 <li class="member">
                     <span>Abdul Basit Khan</span>
                     <span>(02-131192-066)</span>
-                    <a   target="_blank" href="#!" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="#!" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a   target="_blank" href="#!" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="#!" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
@@ -81,11 +80,11 @@ const AllLabs = () => {
                 <li class="member">
                     <span>Rida Afzal</span>
                     <span>(02-131192-008)</span>
-                    <a   target="_blank" href="#!" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="#!" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a   target="_blank" href="#!" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="#!" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
@@ -94,11 +93,11 @@ const AllLabs = () => {
                 <li class="member">
                     <span>Rimya Fareed</span>
                     <span>(02-131192-010)</span>
-                    <a   target="_blank" href="#!" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="#!" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a   target="_blank" href="#!" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="#!" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
@@ -111,11 +110,11 @@ const AllLabs = () => {
                 <li class="member lead">
                     <span>M Saim Hassan</span>
                     <span>(02-131192-015)</span>
-                    <a   target="_blank" href="#!" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="#!" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a   target="_blank" href="#!" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="#!" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
@@ -124,11 +123,11 @@ const AllLabs = () => {
                 <li class="member">
                     <span>Muhammad Bilal</span>
                     <span>(02-131192-080)</span>
-                    <a   target="_blank" href="#!" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="#!" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a   target="_blank" href="#!" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="#!" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
@@ -137,11 +136,11 @@ const AllLabs = () => {
                 <li class="member">
                     <span>Rabiya Essani</span>
                     <span>(02-131192-081)</span>
-                    <a   target="_blank" href="#!" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="#!" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a   target="_blank" href="#!" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="#!" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
@@ -150,11 +149,11 @@ const AllLabs = () => {
                 <li class="member">
                     <span>Saad Kamal</span>
                     <span>(02-131192-075)</span>
-                    <a   target="_blank" href="#!" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="#!" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a   target="_blank" href="#!" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="#!" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
@@ -195,11 +194,11 @@ const AllLabs = () => {
                 <li class="member self">
                     <span>Muhammad Umer Adeem</span>
                     <span>(02-131192-000)</span>
-                    <a   target="_blank" href="#!" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="#!" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a   target="_blank" href="#!" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="#!" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
@@ -212,11 +211,11 @@ const AllLabs = () => {
                 <li class="member lead">
                     <span>Asst Leader Name</span>
                     <span>(02-131192-000)</span>
-                    <a   target="_blank" href="#!" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="#!" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a   target="_blank" href="#!" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="#!" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
@@ -225,11 +224,11 @@ const AllLabs = () => {
                 <li class="member">
                     <span>Member Name</span>
                     <span>(02-131192-000)</span>
-                    <a   target="_blank" href="#!" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="#!" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a   target="_blank" href="#!" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="#!" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
@@ -238,11 +237,11 @@ const AllLabs = () => {
                 <li class="member">
                     <span>Member Name</span>
                     <span>(02-131192-000)</span>
-                    <a   target="_blank" href="#!" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="#!" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a   target="_blank" href="#!" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="#!" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
@@ -251,11 +250,11 @@ const AllLabs = () => {
                 <li class="member">
                     <span>Member Name</span>
                     <span>(02-131192-000)</span>
-                    <a   target="_blank" href="#!" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="#!" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a   target="_blank" href="#!" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="#!" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
@@ -267,11 +266,11 @@ const AllLabs = () => {
                 <li class="member lead">
                     <span>Asst Leader Name</span>
                     <span>(02-131192-000)</span>
-                    <a   target="_blank" href="#!" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="#!" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a   target="_blank" href="#!" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="#!" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
@@ -280,11 +279,11 @@ const AllLabs = () => {
                 <li class="member">
                     <span>Member Name</span>
                     <span>(02-131192-000)</span>
-                    <a   target="_blank" href="#!" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="#!" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a   target="_blank" href="#!" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="#!" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
@@ -293,11 +292,11 @@ const AllLabs = () => {
                 <li class="member">
                     <span>Member Name</span>
                     <span>(02-131192-000)</span>
-                    <a   target="_blank" href="#!" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="#!" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a   target="_blank" href="#!" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="#!" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
@@ -306,11 +305,11 @@ const AllLabs = () => {
                 <li class="member">
                     <span>Member Name</span>
                     <span>(02-131192-000)</span>
-                    <a   target="_blank" href="#!" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="#!" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a   target="_blank" href="#!" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="#!" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
@@ -351,11 +350,11 @@ const AllLabs = () => {
                 <li class="member self">
                     <span>Hamza Bukhari</span>
                     <span>(02-131192-000)</span>
-                    <a   target="_blank" href="#!" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="#!" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a   target="_blank" href="#!" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="#!" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
@@ -367,11 +366,11 @@ const AllLabs = () => {
                 <li class="member lead">
                     <span>Asst Leader Name</span>
                     <span>(02-131192-000)</span>
-                    <a   target="_blank" href="#!" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="#!" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a   target="_blank" href="#!" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="#!" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
@@ -380,11 +379,11 @@ const AllLabs = () => {
                 <li class="member">
                     <span>Member Name</span>
                     <span>(02-131192-000)</span>
-                    <a   target="_blank" href="#!" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="#!" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a   target="_blank" href="#!" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="#!" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
@@ -393,11 +392,11 @@ const AllLabs = () => {
                 <li class="member">
                     <span>Member Name</span>
                     <span>(02-131192-000)</span>
-                    <a   target="_blank" href="#!" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="#!" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a   target="_blank" href="#!" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="#!" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
@@ -406,11 +405,11 @@ const AllLabs = () => {
                 <li class="member">
                     <span>Member Name</span>
                     <span>(02-131192-000)</span>
-                    <a   target="_blank" href="#!" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="#!" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a   target="_blank" href="#!" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="#!" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
@@ -422,11 +421,11 @@ const AllLabs = () => {
                 <li class="member lead">
                     <span>Asst Leader Name</span>
                     <span>(02-131192-000)</span>
-                    <a   target="_blank" href="#!" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="#!" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a   target="_blank" href="#!" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="#!" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
@@ -435,11 +434,11 @@ const AllLabs = () => {
                 <li class="member">
                     <span>Member Name</span>
                     <span>(02-131192-000)</span>
-                    <a   target="_blank" href="#!" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="#!" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a   target="_blank" href="#!" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="#!" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
@@ -448,11 +447,11 @@ const AllLabs = () => {
                 <li class="member">
                     <span>Member Name</span>
                     <span>(02-131192-000)</span>
-                    <a   target="_blank" href="#!" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="#!" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a   target="_blank" href="#!" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="#!" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
@@ -461,11 +460,11 @@ const AllLabs = () => {
                 <li class="member">
                     <span>Member Name</span>
                     <span>(02-131192-000)</span>
-                    <a   target="_blank" href="#!" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="#!" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a   target="_blank" href="#!" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="#!" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
@@ -507,11 +506,11 @@ const AllLabs = () => {
                 <li class="member self">
                     <span>Adil Waheed</span>
                     <span>(02-131192-082)</span>
-                    <a   target="_blank" href="https://adilwaheed786.github.io/University_labs/Web_lab/githublink.html" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="https://adilwaheed786.github.io/University_labs/Web_lab/githublink.html" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a   target="_blank" href="https://adilwaheed786.github.io/University_labs/Web_lab/" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="https://adilwaheed786.github.io/University_labs/Web_lab/" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
@@ -523,11 +522,11 @@ const AllLabs = () => {
                 <li class="member lead">
                     <span>Syed Muhammad Shoaib</span>
                     <span>(02-131192-030)</span>
-                    <a   target="_blank" href="https://shah-1510.github.io/Web-Dev-Labs/github%20Links/githublinks.html" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="https://shah-1510.github.io/Web-Dev-Labs/github%20Links/githublinks.html" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a   target="_blank" href="https://shah-1510.github.io/Web-Dev-Labs/master%20page/masterindex.html" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="https://shah-1510.github.io/Web-Dev-Labs/master%20page/masterindex.html" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
@@ -536,11 +535,11 @@ const AllLabs = () => {
                 <li class="member">
                     <span>Dania Ahmed</span>
                     <span>(02-131192-079)</span>
-                    <a   target="_blank" href="https://dania722.github.io/lab-1-to-5/" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="https://dania722.github.io/lab-1-to-5/" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a   target="_blank" href="https://dania722.github.io/lab-1-to-5/" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="https://dania722.github.io/lab-1-to-5/" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
@@ -549,11 +548,11 @@ const AllLabs = () => {
                 <li class="member">
                     <span>Sajjad Ahmed</span>
                     <span>(02-131192-052)</span>
-                    <a   target="_blank" href="notfound.html" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="notfound.html" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a   target="_blank" href="notfound.html" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="notfound.html" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
@@ -562,11 +561,11 @@ const AllLabs = () => {
                 <li class="member">
                     <span>Summayya Khalid</span>
                     <span>(02-131192-057)</span>
-                    <a   target="_blank" href="https://sumayyakhalid.github.io/web-labs-links/Gitup/" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="https://sumayyakhalid.github.io/web-labs-links/Gitup/" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a   target="_blank" href="https://sumayyakhalid.github.io/web-labs-links/Live%20link/" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="https://sumayyakhalid.github.io/web-labs-links/Live%20link/" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
@@ -578,11 +577,11 @@ const AllLabs = () => {
                 <li class="member lead">
                     <span>Marium Ahmed</span>
                     <span>(02-131192-014)</span>
-                    <a   target="_blank" href="https://mariaamahmed.github.io/Masterlinks/links/mastergit.html" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="https://mariaamahmed.github.io/Masterlinks/links/mastergit.html" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a   target="_blank" href="https://mariaamahmed.github.io/Masterlinks/links/masterlive.html" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="https://mariaamahmed.github.io/Masterlinks/links/masterlive.html" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
@@ -591,11 +590,11 @@ const AllLabs = () => {
                 <li class="member">
                     <span>Mirza Muhammad Farooq Baig</span>
                     <span>(02-131192-040)</span>
-                    <a   target="_blank" href="https://farooqmirza5.github.io/WE_LABS/githublinks.html" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="https://farooqmirza5.github.io/WE_LABS/githublinks.html" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a   target="_blank" href="https://farooqmirza5.github.io/WE_LABS/livelinks.html" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="https://farooqmirza5.github.io/WE_LABS/livelinks.html" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
@@ -604,11 +603,11 @@ const AllLabs = () => {
                 <li class="member">
                     <span>Ahmed Faraz Ali</span>
                     <span>(02-131192-023)</span>
-                    <a   target="_blank" href="https://github.com/AhmedFarazAli/Web-tasks" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="https://github.com/AhmedFarazAli/Web-tasks" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a   target="_blank" href="https://ahmedfarazali.github.io/Web-tasks/MasterPage.html" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="https://ahmedfarazali.github.io/Web-tasks/MasterPage.html" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
@@ -617,11 +616,11 @@ const AllLabs = () => {
                 <li class="member">
                     <span>Muhammad Shazil Bin Alam Rao</span>
                     <span>(02-131192-047)</span>
-                    <a   target="_blank" href="https://shazilrao.github.io/All-live-Labs-WE/index.html" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="https://shazilrao.github.io/All-live-Labs-WE/index.html" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a   target="_blank" href="https://shazilrao.github.io/All-live-Labs-WE/index.html" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="https://shazilrao.github.io/All-live-Labs-WE/index.html" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
