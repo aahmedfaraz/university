@@ -338,10 +338,7 @@ const Assign2 = () => {
 
 
 
-
-
-
-            {/* <!-- HAMZA BUKHARI card starts from here --------------------------------------------------------------------------------------------------------------> */}
+ {/* <!-- HAMZA BUKHARI card starts from here --------------------------------------------------------------------------------------------------------------> */}
             {/* <!-- ============================================================= --> */}
             {/* <!-- Activity Card - Group 5 and 4 --> */}
             {/* <!-- ============================================================= --> */}
@@ -350,11 +347,11 @@ const Assign2 = () => {
                 <li class="member self">
                     <span>Hamza Bukhari</span>
                     <span>(02-131192-022)</span>
-                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="https://github.com/SMHamzaBukhari/Web-Eng-Assignment-3.git" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="https://web-assign-737fe.web.app/" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
@@ -370,7 +367,7 @@ const Assign2 = () => {
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="https://app.netlify.com/sites/joyful-custard-e9551f/overview" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
@@ -421,11 +418,11 @@ const Assign2 = () => {
                 <li class="member lead">
                     <span>Abdullah Iqbal</span>
                     <span>(02-131192-076)</span>
-                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="https://github.com/AbdullahIqbal10/Assignment-3-react" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="https://abdullahiqbalweb3.netlify.app/" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
@@ -434,11 +431,11 @@ const Assign2 = () => {
                 <li class="member">
                     <span>Arzoo Fatima</span>
                     <span>(02-131192-032)</span>
-                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="https://github.com/arzoofatima52/Web-Assignment-3" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="https://arzooassignment3.firebaseapp.com/" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
@@ -447,11 +444,11 @@ const Assign2 = () => {
                 <li class="member">
                     <span>Shahwaiz Hassan</span>
                     <span>(02-131192-006)</span>
-                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="https://github.com/shahwaiz-hassan/React-Assignment" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="https://shahwaizhassan-react.netlify.app/" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
@@ -460,24 +457,17 @@ const Assign2 = () => {
                 <li class="member">
                     <span>Arshia Naveed</span>
                     <span>(02-131192-026)</span>
-                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="https://github.com/ArshiaNaveed/Assignment03.git" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="https://arshianaveededitingwebsite.netlify.app/" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
                 </li>
             </ul>
             {/* <!-- HAMZA BUKHARI card ends here --------------------------------------------------------------------------------------------------------------> */}
-
-
-
-
-
-
-
 
 
 
