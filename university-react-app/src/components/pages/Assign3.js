@@ -376,11 +376,11 @@ const Assign2 = () => {
                 <li class="member">
                     <span>Hareem Fatima</span>
                     <span>(02-131192-020)</span>
-                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="https://github.com/hareem19599/WebAssignments/tree/main/assignment3" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="https://spectacular-dasik-169d90.netlify.app/" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
