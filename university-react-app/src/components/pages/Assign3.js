@@ -567,11 +567,11 @@ const Assign2 = () => {
                 <li class="member lead">
                     <span>Marium Ahmed</span>
                     <span>(02-131192-014)</span>
-                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="https://github.com/MariaamAhmed/Assignment3" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="https://mariumahmed-assignment3.netlify.app" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
