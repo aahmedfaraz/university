@@ -149,11 +149,11 @@ const Assign2 = () => {
                 <li class="member">
                     <span>Saad Kamal</span>
                     <span>(02-131192-075)</span>
-                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="https://github.com/saadkamal100/assignment3" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
-                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn blue">
+                    <a target="_blank" rel="noreferrer" href="https://wonderful-cat-e6d30a.netlify.app/" class="btn blue">
                         Live App
                         <i class="material-icons">open_in_new</i>
                     </a>
@@ -363,7 +363,7 @@ const Assign2 = () => {
                 <li class="member lead">
                     <span>Ahmed Bin Alam Rao</span>
                     <span>(02-131192-046)</span>
-                    <a target="_blank" rel="noreferrer" href="/assignment-3" class="btn dark">
+                    <a target="_blank" rel="noreferrer" href="https://github.com/Ahmed-G-Rao/Assignment3_WebEng" class="btn dark">
                         Github
                         <i class="material-icons">code</i>
                     </a>
